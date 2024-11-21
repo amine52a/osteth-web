@@ -1,0 +1,55 @@
+/* Footer.css */
+.footer {
+    background-color: #000;  /* Black background for the footer */
+    padding: 30px 0;          /* Padding for spacing */
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
+    align-items: center;      /* Center the content vertically */
+    flex-direction: column;   /* Stack the social items vertically */
+    width: 100%;              /* Ensure it takes the full width */
+    color: #fff;              /* Default text color white */
+  }
+  
+  .social-icons {
+    list-style: none;
+    display: flex;
+    gap: 40px;                /* Space between the icons */
+    align-items: center;   /* Center items horizontally */
+  }
+  
+  .social-item {
+    text-align: center;  
+    background-color: #000; 
+    border: none;    /* Center the text below each icon */
+  }
+  
+  .social-icons img {
+    width: 40px;              /* Size of the social media icons */
+    height: 40px;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .social-icons a {
+    text-decoration: none;    /* Remove underline from links */
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);    /* Slightly enlarge the icon on hover */
+  }
+  
+  .social-item span {
+    display: block;
+    margin-top: 10px;         /* Space between the icon and text */
+    color: #fff;              /* White text for the captions */
+    font-size: 14px;          /* Smaller font size for the text */
+  }
+  
+  @media (max-width: 768px) {
+    .social-icons {
+      gap: 20px;              /* Reduce the gap for smaller screens */
+    }
+    .social-item span {
+      font-size: 12px;        /* Make text smaller on mobile */
+    }
+  }
+  

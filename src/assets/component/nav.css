@@ -1,0 +1,29 @@
+/* Navbar.css */
+.nav {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center;
+  padding: 15px 25px;  /* Reduced padding for a smaller navbar */
+  background-color: #333; /* Dark background for navbar */
+  height: 50px; /* Reduced height */
+}
+
+.left img {
+  width: 60px;  /* Smaller logo size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+}
+
+.right a {
+  text-decoration: none;
+  color: white; /* White text for the links */
+  font-size: 16px; /* Smaller font size */
+}
+
+.right a:hover {
+  color: #f0a500; /* Change color on hover */
+}

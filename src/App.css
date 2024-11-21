@@ -1,0 +1,39 @@
+/* Add this CSS to your styles file (e.g., Navbar.css) */
+.nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Change to your preferred background color */
+  }
+  
+  /* Style for the left section (Links) */
+  .left {
+    display: flex;
+    gap: 90px; /* Increase space between links */
+  }
+  
+  /* Style for the right section (Logo) */
+  .right {
+    margin-left: auto; /* Push logo to the far right */
+  }
+  
+  .right img {
+    width: 80px; /* Adjust logo size as needed */
+    height: 80px; /* Make height the same as width for a round shape */
+    border-radius: 100%; /* Make the image round */
+    object-fit: cover; /* Ensure the image fits inside the circle */
+  }
+  
+  /* General Link Styling */
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    color: #ddd; /* Change color on hover */
+  }
+  

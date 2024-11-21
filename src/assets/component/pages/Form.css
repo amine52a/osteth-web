@@ -1,0 +1,76 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh; /* Ensure the full height is used */
+  }
+  
+  .rightside {
+    width: 50%;
+    background-image: url('../../images/your-image.jpg'); /* Change this to your actual image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftside {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align form to the left */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;  /* Increased width for a larger form */
+    padding: 30px;     /* More padding for comfort */
+    border: none;  
+    min-height: 300px;      /* Set a minimum height to increase the form height */
+    border-radius: 10px; /* Slightly larger rounded corners */
+    background-color: #ffffff; /* Black background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    gap: 20px;              /* Add gap to increase the space between form elements */
+    /* Slightly deeper shadow */
+  }
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #ff4500; /* Red-orange button color */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e03e00; /* Slightly darker shade on hover */
+  }
+  
+  small {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  

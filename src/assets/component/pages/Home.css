@@ -1,0 +1,65 @@
+.Home {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Header {
+    background-image: url('../../images/back.jpg');
+    background-size: cover;  /* Ensure the image covers the entire div */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    height: 100vh;  /* Set height (adjust as needed) */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* Align content to the top */
+    align-items: flex-start;  /* Align content to the left */
+    color: white;  /* Set text color to white */
+    text-align: left;  /* Align text to the left */
+    padding: 30px;  /* Add padding for spacing from edges */
+  }
+  
+  .Header h1 {
+    font-size: 3rem;  /* Adjust size for the header */
+    font-weight: bold;
+    margin: 0;  /* Remove margin to align perfectly */
+    color: white;  /* Ensure the header text is white */
+  }
+  
+  .Header p {
+    font-size: 1.5rem;  /* Adjust size for the paragraph */
+    margin: 10px 0;  /* Add some spacing */
+    color: white;  /* Ensure the paragraph text is white */
+  }
+  
+  .order-button {
+    padding: 15px 30px;
+    background-color: #ff6347;  /* Tomato red color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #ff4500;  /* Darker shade on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .Header h1 {
+      font-size: 2rem;  /* Adjust font size for smaller screens */
+    }
+  
+    .Header p {
+      font-size: 1rem;  /* Adjust font size for smaller screens */
+    }
+  
+    .order-button {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+  
